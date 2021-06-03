@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Cheatsheet by Programmer Saiyam</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ubuntu:wght@300&display=swap"rel="stylesheet">
+
+    <link rel="stylesheet" href="prism.css">
+    <!-- <link rel="stylesheet" href="prism.js"> -->
+    <script src="prism.js"></script>
+</head>
+
+<body>
+    <div id="nav_bar">
+        <span id="Logo"><img src="Logo.png" alt="Logo"></span>
+        <h1>PROGRAMMER SAIYAM'S PYTHON CODES</h1>
+    </div>
+
+    <div id="code_1" class="container">
+        <h2>1. Python program to print 'Hello World':</h2>
+        <pre class="language-python"><code>print("Hello World")</code></pre>
+    </div>
+
+    <div id="code_2" class="container">
+        <h2>2. Python program to take input from the users:</h2>
+        <pre class="language-python">
+<code>user_input = input("Enter the your name below\n")
+print(user_input)
+</code></pre>
+    </div>
+
+    <div id="code_3" class="container">
+        <h2>3. Python program to add two numbers:</h2>
+        <pre class="language-python"><code>number_1 = 5
+number_2 = 10
+
+print(number_1+number_2)</code></pre>
+    </div>
+
+    <div id="code_4" class="container">
+        <h2>4. Python program to find whether a string is in binary form or not:</h2>
+        <pre class="language-python"><code># This programme will detect if a string input
+# is a binary or not 
+            
+def string_detection():  
+    main_string = input('Enter a string here:- ')
+    s = ('0', '1')
+            
+    if main_string==s or main_string=='1' or main_string=='0':
+        print(f"Yes {main_string} is a binary.")
+                
+    elif '1' in main_string or '0' in main_string:
+        print(f"Yes '{main_string}' is a binary.")
+                
+    else:
+        print(f'No "{main_string}" is not a binary.')        
+string_detection()</code></pre>
+    </div>
+
+    <div id="code_5" class="container">
+        <h2>5. Python program to reverse first and last element of a list:</h2>
+        <pre class="language-python"><code>def exchange_elements():
+    list_1 = [1,2,3,4,5]
+    print(f'This is the real string- {list_1}')
+    elements = list_1[0] , list_1[4]
+        
+    list_1[4] , list_1[0] = elements
+        
+    print(f'This is the second list- {list_1}')
+        
+exchange_elements()</code></pre>
+    </div>
+
+    
+</body>
+
+<!-- Footer -->
+<footer class="Footer">
+
+    <!-- Footer Links -->
+    <div class="container-fluid text-center text-md-left">
+  
+      <!-- Grid row -->
+      <div class="row">
+  
+        <!-- Grid column -->
+        <div class="col-md-6 mt-md-0 mt-3">
+  
+          <!-- Content -->
+          <h3 class="text-uppercase">Programmer Saiyam</h3>
+          <p>Thanks for visiting Programmer Saiyam's Python Codes.</p>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <hr class="clearfix w-100 d-md-none pb-3">
+  
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3">
+  
+          <!-- Links -->
+          <h5 class="text-uppercase">All Links</h5>
+          <ul class="all_links">
+            <li>
+              <a href="https://www.youtube.com/channel/UCnWaOrLNPkW06XUlMormsvw" target="_blank">Programmer Saiyam youtube channel</a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/saiyam-arora-a74447209/" target="_blank">Linkedin Profile</a>
+            </li>
+            <li>
+              <a href="https://github.com/Saiyam539" target="_blank">GitHub profile</a>
+            </li>
+          </ul>
+  
+  </footer>
+</html>
